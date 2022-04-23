@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body{
+    padding: 60px;
+    background-color: #616161;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+.clock{
+    position: relative;
+    background-color:white;
+    border-radius: 25px;
+    color: black;
+    width: 20%;
+    font-family: Poppins;
+    font-size: 20px;
+    box-shadow: 0 0 .5em #111;
+}
+
+.box{
+    position: relative;
+    background-color: white;
+    color: black;
+    height: 70px;
+    width: 75px;
+    font-family: Poppins;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 0 0 .5em #111;
+    border-radius: 10px;
+}
+
+.box:hover{
+    background-color: rgb(219, 215, 215);
+}
+
+
+.searchbar{
+    position: relative;
+    border-radius: 25px;
+    bottom: -90px;
+    width: 20%;
+    height: 30px;
+    box-shadow: 0 0 .5em #111;
+    border: none;
+    outline: none;
+    font-family: Poppins;
+}
+
+.color{
+    position: absolute;
+    margin: 2em;
+    width: 5em;
+    height: 5em;
+    border: .4em solid black;
+    border-radius: 20%;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 .5em #111;
+}
+
+.color:hover{
+    animation: round 2s infinite;
+}
+
+@keyframes round{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(60deg);
+    }
+    20%{
+        transform: rotate(120deg);
+    }
+    40%{
+        transform: rotate(180deg);
+    }
+    60%{
+        transform: rotate(240deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
