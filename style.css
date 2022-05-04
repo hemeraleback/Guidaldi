@@ -50,6 +50,7 @@ img{
     border: none;
     outline: none;
     font-family: Poppins;
+    cursor: pointer;
 }
 
 .color{
