@@ -1,13 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 body{
-    padding: 60px;
-    background-color: #616161;
-}
-
-img{
-    width: 60px;
-    height: 60px;
+    padding: 40px;
+    background-color: #6A85A0;
 }
 
 .clock{
@@ -18,27 +13,31 @@ img{
     width: 20%;
     font-family: Poppins;
     font-size: 20px;
-    box-shadow: 0 0 .5em #111;
+    box-shadow: 0 0 .3em rgb(0, 0, 0);
 }
 
 .box{
     position: relative;
     background-color: white;
-    color: black;
     height: 70px;
     width: 75px;
+    border-width: 1px;
     font-family: Poppins;
     font-size: 20px;
     cursor: pointer;
     display: inline-block;
-    box-shadow: 0 0 .5em #111;
+    box-shadow: 0 0 .3em rgb(0, 0, 0);
     border-radius: 10px;
+}
+
+.ibtn{
+    width: 60px;
+    height: 60px;
 }
 
 .box:hover{
     background-color: rgb(219, 215, 215);
 }
-
 
 .searchbar{
     position: relative;
@@ -46,10 +45,21 @@ img{
     bottom: -90px;
     width: 20%;
     height: 30px;
-    box-shadow: 0 0 .5em #111;
+    box-shadow: 0 0 .3em rgb(0, 0, 0);
     border: none;
     outline: none;
     font-family: Poppins;
+    cursor: text;
+}
+
+.utilities{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
 }
 
@@ -62,7 +72,7 @@ img{
     border-radius: 20%;
     outline: none;
     cursor: pointer;
-    box-shadow: 0 0 .5em #111;
+    box-shadow: 0 0 .3em rgb(0, 0, 0);
 }
 
 .color:hover{
