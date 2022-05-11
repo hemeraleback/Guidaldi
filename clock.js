@@ -17,4 +17,5 @@ function changecolor(color) {
     document.body.style.backgroundColor = color.value;
 }
 
-
+//credits
+console.log("Created by Hemerale Back");
