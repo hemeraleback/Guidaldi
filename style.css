@@ -1,104 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 body{
-    padding: 40px;
-    background-color: #6A85A0;
+    background-color: #A39FC8;
+}
+
+*{
+    font-family: Poppins;
 }
 
 .clock{
     position: relative;
-    background-color:white;
-    border-radius: 25px;
     color: black;
-    width: 20%;
-    font-family: Poppins;
-    font-size: 20px;
-    box-shadow: 0 0 .3em rgb(0, 0, 0);
+    font-size: 90px;
+    bottom: -50px;
 }
 
 .box{
     position: relative;
     background-color: white;
-    height: 70px;
-    width: 75px;
-    border-width: 1px;
-    font-family: Poppins;
+    height: 80px;
+    width: 85px;
+    border: none;
     font-size: 20px;
+    bottom: -50px;
     cursor: pointer;
     display: inline-block;
     box-shadow: 0 0 .3em rgb(0, 0, 0);
-    border-radius: 10px;
-}
-
-.ibtn{
-    width: 60px;
-    height: 60px;
+    border-radius: 5px;
 }
 
 .box:hover{
-    background-color: rgb(219, 215, 215);
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+.ibtn{
+    width: 70px;
+    height: 70px;
 }
 
 .searchbar{
     position: relative;
-    border-radius: 25px;
-    bottom: -90px;
-    width: 20%;
+    border-radius: 5px;
+    bottom: -220px;
+    width: 23%;
     height: 30px;
     box-shadow: 0 0 .3em rgb(0, 0, 0);
     border: none;
     outline: none;
-    font-family: Poppins;
     cursor: text;
+    top: 30px;
 }
 
-.utilities{
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.color{
-    position: absolute;
-    margin: 2em;
-    width: 5em;
-    height: 5em;
-    border: .4em solid black;
-    border-radius: 20%;
-    outline: none;
-    cursor: pointer;
-    box-shadow: 0 0 .3em rgb(0, 0, 0);
-}
-
-.color:hover{
-    animation: round 2s infinite;
-}
-
-@keyframes round{
-    0%{
-        transform: rotate(0deg);
-    }
-    10%{
-        transform: rotate(60deg);
-    }
-    20%{
-        transform: rotate(120deg);
-    }
-    40%{
-        transform: rotate(180deg);
-    }
-    60%{
-        transform: rotate(240deg);
-    }
-    80%{
-        transform: rotate(300deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+.data{
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    bottom: 280px;
 }
