@@ -1,3 +1,8 @@
+<!--
+   Creato da Hemerale Back
+        Guidaldi - 2022 
+                            -->
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -7,17 +12,21 @@
     <title>Guidaldi</title>
 </head>
 <body onload="realtimeClock()" cz-shortcut-listen="true">
-    
-<!-- Color Picker -->
-<input class="color" id="colorpicker" type="color" onchange="changecolor(this)"></input>
 
 <center>
 
+    
     <!-- Clock -->
     <div id="clock" class="clock" style="text-align:center"></div>
     <br>
 
     <table>
+        <br><br><br>
+
+        <!-- Search Bar -->
+        <form method="GET" action="https://www.google.com/search">
+        <input type="text" class="searchbar" name="q" size="31" id="searchbar" spellcheck="false" maxlength="255" placeholder="What are you looking for?">
+        </form>
 
         <!-- w3schools -->
         <td><button class="box" id="box" onclick="window.open('https://www.w3schools.com/','_self')"><img src="https://www.w3schools.com/favicon.ico" class="ibtn"></button></td>
@@ -43,14 +52,11 @@
         <td><button class="box" target="_self" id="box" onclick="window.open('https://www.youtube.com/','_self')"><img src="https://rightofficial.000webhostapp.com/youtube.png" class="ibtn"></button></td>
 
         <!-- Blank -->
-        <td><button class="box" target="_self" id="box" onclick="window.open('','_self')"><img src="https://hemeraleback.github.io/images/blank.webp" class="ibtn"></button></td>
+        <td><button class="box" target="_self" id="box" onclick="alert('In questo pulsante non è presente alcun link')"><img src="https://hemeraleback.github.io/images/blank.webp" class="ibtn"></button></td>
 
     </table>
 
-    <!-- Search Bar -->
-    <form method="GET" action="https://www.google.com/search">
-    <input type="text" class="searchbar" name="q" size="31" id="searchbar" spellcheck="false" maxlength="255" placeholder="What you are you looking for?">
-    </form>
+    <div id="data" class="data"></p>
 
 </center>
 
