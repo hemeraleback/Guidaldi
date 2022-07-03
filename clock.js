@@ -15,8 +15,8 @@ function realtimeClock(){
     year = date.getFullYear();
     day = date.getDate();
 
-    const weekday = ["Domenica","Lunedì","Martedì","Mercoledì","Giovedì","Venerdì","Sabato"];
-    const monthday = ["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"];
+    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    const monthday = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
     let week = weekday[date.getDay()];
     let month = monthday[date.getUTCMonth()];
