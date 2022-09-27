@@ -1,4 +1,5 @@
-# [Guidaldi](https://hemeraleback.github.io/Guidaldi/) is my custom web browser home page compatible with all the web browser and equipped with a search bar for making the browser work for real
+# [Guidaldi](https://hemeraleback.github.io/Guidaldi/) 
+> Guildadi is my custom web browser home page compatible with all the web browser and equipped with a search bar for making the browser work for real
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="100" height="100"/>
